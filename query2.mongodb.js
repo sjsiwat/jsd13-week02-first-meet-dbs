@@ -69,3 +69,11 @@ use("sample_mflix");
 db.theaters.find({"location.address.city": "La Quinta"}).count();
 
 
+/* Excercise4 */
+/* ข้อที่1
+How many movies does mentioned American in its plot?
+*/
+
+use("sample_mflix");
+db.movies.find({ plot: { $regex: "American", $options: "i" } }).count()
+
