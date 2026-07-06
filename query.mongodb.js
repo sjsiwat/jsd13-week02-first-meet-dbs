@@ -1,3 +1,3 @@
 use('sample_mflix');
 
-db.comments.find();
+db.movies.find();
