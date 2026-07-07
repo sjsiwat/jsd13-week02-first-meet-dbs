@@ -38,6 +38,6 @@ db.ingredients.aggregate([{$lookup: {
   localField: "supplier_id",
   foreignField: "_id",
   as: "supplier_info",
-}},{$unwind: "$supplier_info",}
+}},{$unwind: "$supplier_info"}
 
 ]);

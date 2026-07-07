@@ -1,7 +1,7 @@
 use("chrome-burger-db");
 
 //clear  existing data
-de.menu_items.deleteMany({});
+db.menu_items.deleteMany({});
 
 // insert mock data for menu
 

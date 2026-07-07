@@ -30,4 +30,5 @@ db.suppliers.deleteMany({});
 
 // find all suppliers data
 
+db.suppliers.find();
 
