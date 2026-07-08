@@ -1,0 +1,25 @@
+
+[
+{
+  "id": 1,
+  "username": "Johny01",
+  "firstName": "johny",
+  "lastName": "catgod",
+  "email": "johny@example.com",
+  "password": "test1234",
+  "profileImage": "https://example.com/profile.jpg",
+  "role": "customer"
+  
+},
+  {
+
+    "id": 2,
+    "username": "siwat01",
+    "firstName": "siwat",
+    "lastName": "jankam",
+    "email": "siwat@example.com",
+    "password": "test5678",
+    "profileImage": "https://example.com/alice.jpg",
+    "role": "owner"
+    
+  }]
