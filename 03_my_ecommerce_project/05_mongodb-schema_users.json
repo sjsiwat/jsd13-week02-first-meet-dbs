@@ -7,7 +7,7 @@
   "lastName": "catgod",
   "email": "johny@example.com",
   "password": "test1234",
-  "profileImage": "https://example.com/profile.jpg",
+  "profileImage": "https://example.com/profilecat.jpg",
   "role": "customer"
   
 },
@@ -19,7 +19,7 @@
     "lastName": "jankam",
     "email": "siwat@example.com",
     "password": "test5678",
-    "profileImage": "https://example.com/alice.jpg",
+    "profileImage": "https://example.com/profilesiwat.jpg",
     "role": "owner"
     
   }]
