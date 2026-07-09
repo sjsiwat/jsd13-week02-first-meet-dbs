@@ -1,10 +1,11 @@
+
 use("johnycoffee-db");
 
 db.users.insertMany([
 
-[
+
 {
-  "id": 1,
+  "_id": 1,
   "username": "Johny01",
   "firstName": "johny",
   "lastName": "catgod",
@@ -16,7 +17,7 @@ db.users.insertMany([
 },
   {
 
-    "id": 2,
+    "_id": 2,
     "username": "siwat01",
     "firstName": "siwat",
     "lastName": "jankam",
@@ -27,6 +28,15 @@ db.users.insertMany([
     "create_at": "2026-01-01T00:00:00Z"
 
     
-  }],
+  }
 
-])
+
+]);
+// Find all user in users collection
+db.users.find();
+
+// Find only one result from user collection in field 
+db.users.findOne({firstName: "johny"});
+
+//  Delete all data
+db.users.deleteMany({});
