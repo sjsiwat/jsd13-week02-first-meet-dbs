@@ -1,0 +1,32 @@
+use("johnycoffee-db");
+
+db.users.insertMany([
+
+[
+{
+  "id": 1,
+  "username": "Johny01",
+  "firstName": "johny",
+  "lastName": "catgod",
+  "email": "johny@example.com",
+  "password": "test1234",
+  "profileImage": "https://example.com/profilecat.jpg",
+  "role":"customer",
+  "create_at": "2026-01-01T00:00:00Z"
+},
+  {
+
+    "id": 2,
+    "username": "siwat01",
+    "firstName": "siwat",
+    "lastName": "jankam",
+    "email": "siwat@example.com",
+    "password": "test5678",
+    "profileImage": "https://example.com/profilesiwat.jpg",
+    "role": "owner",
+    "create_at": "2026-01-01T00:00:00Z"
+
+    
+  }],
+
+])
