@@ -1,0 +1,47 @@
+[{
+    "id": "menu001",
+    "shop_id": "shop001",
+    "name": "hot americano",
+    "price": "50"
+
+},
+
+{
+    "id": "menu002",
+    "shop_id": "shop001",
+    "name": "ice americano",
+    "price": "60"
+
+},
+
+{
+    "id": "menu003",
+    "shop_id": "shop001",
+    "name": "espresso shot",
+    "price": "40"
+
+},
+
+{
+    "id": "menu004",
+    "shop_id": "shop001",
+    "name": "ice espresso thai style",
+    "price": "70"
+
+},
+
+{
+    "id": "menu005",
+    "shop_id": "shop001",
+    "name": "pure matcha (yame)",
+    "price": "80"
+
+},
+
+{
+    "id": "menu006",
+    "shop_id": "shop001",
+    "name": "ice matcha latte",
+    "price": "100"
+
+}]
